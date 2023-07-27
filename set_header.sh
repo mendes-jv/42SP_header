@@ -24,6 +24,6 @@ fi
 mkdir -p ~/.vim/plugin
 
 # Add stdheader to vim plugins
-cp plugin/stdheader.vim ~/.vim/plugin/
+cp plugin/after/stdheader.vim ~/.vim/after/plugin/
 
 source ~/.zshrc

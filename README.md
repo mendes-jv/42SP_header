@@ -8,7 +8,7 @@ Cabeçalho padrão 42 para o Vim.
 
 ### **Configuração no UNIX**
 
-Copie o arquivo `stdheader.vim` para `~/.vim/plugin`, ou use o seu gerenciador de plugins favorito. Em seguida, defina as variáveis de usuário e e-mail conforme explicado abaixo.
+Copie o arquivo `stdheader.vim` para `~/.vim/after/plugin`, ou use o seu gerenciador de plugins favorito. Em seguida, defina as variáveis de usuário e e-mail conforme explicado abaixo.
 
 #### Opção 1: exporte USER e MAIL no arquivo de configuração do seu shell
 
