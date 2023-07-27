@@ -17,7 +17,7 @@ fi
 
 if [ ! -z "$MAIL" ]
 then
-    echo "MAIL="$USER@student.42.fr"" >> ~/.zshrc
+    echo "MAIL="$USER@student.42sp.org.br"" >> ~/.zshrc
     echo "export MAIL" >> ~/.zshrc
 fi
 
