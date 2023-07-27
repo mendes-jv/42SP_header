@@ -1,53 +1,30 @@
-# **42 Header**
+# **Header 42SP**
 
-42 (Paris)
+42 (São Paulo)
 
-### **Description**
+### **Descrição**
 
-42 standard header for vim editor.
+Cabeçalho padrão 42 para o Vim.
 
-![42 header](img/42header.jpg)
+### **Configuração no UNIX**
 
-### **UNIX Setup**
+Copie o arquivo `stdheader.vim` para `~/.vim/plugin`, ou use o seu gerenciador de plugins favorito. Em seguida, defina as variáveis de usuário e e-mail conforme explicado abaixo.
 
-Copy `stdheader.vim` in your `~/.vim/plugin`, or use your favorite plugin
-manager. Then set the user and mail variables as explained below.
+#### Opção 1: exporte USER e MAIL no arquivo de configuração do seu shell
 
-#### Option 1: export USER and MAIL in your shell configuration file
+Adicione em `~/.zshrc` o seguinte:
 
-Add in `~/.zshrc` your:
-
-+ `USER`
-+ `MAIL`
-
-#### Option 2: set user and mail values directly in your vimrc
-
-```vim
-let g:user42 = 'yourLogin'
-let g:mail42 = 'yourLogin@student.42.fr'
+```zsh
+export USER="usuário"
+export MAIL="usuario@estudante.42sp.org.br"
 ```
 
-### **Usage**
+### **Uso**
 
-In **NORMAL** mode you can use `:Stdheader` or simply press the shortcut <kbd>F1</kbd>.
+No modo **NORMAL**, você pode usar `:Stdheader` ou simplesmente pressionar o atalho <kbd>F1</kbd>.
 
-Under **Linux** you eventually need to disable the **help** shortcut of your **terminal** :
+Ou, você pode executar o script do repositório:
 
-For **Terminator**, right click -> Preferences -> Shortcuts -> change help with something other than <kbd>F1</kbd>
-
-### **Note**
-
-Inside the **42 clusters** you can easily run:
-
-`$ ./set_header.sh`
-
-### **Credits**
-
-[@zazard](https://github.com/zazard) - creator  
-[@alexandregv](https://github.com/alexandregv) - contributor  
-[@mjacq42](https://github.com/mjacq42) - contributor  
-[@sungmcho](https://github.com/lordtomi0325) - contributor  
-
-### **License**
-
-This work is published under the terms of **[42 Unlicense](https://github.com/gcamerli/42unlicense)**.
+```zsh
+./set_header.sh`
+```
