@@ -15,8 +15,8 @@ Copie o arquivo `stdheader.vim` para `~/.vim/plugin`, ou use o seu gerenciador d
 Adicione em `~/.zshrc` o seguinte:
 
 ```zsh
-export USER="usuário"
-export MAIL="usuario@estudante.42sp.org.br"
+export USER="seu_nick_da_intra"
+export MAIL="seu_nick_da_intra@student.42sp.org.br"
 ```
 
 ### **Uso**
