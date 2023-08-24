@@ -26,5 +26,5 @@ No modo **NORMAL**, você pode usar `:Stdheader` ou simplesmente pressionar o at
 Ou, você pode executar o script do repositório:
 
 ```zsh
-./set_header.sh
+zsh ./set_header.sh
 ```
